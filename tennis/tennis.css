@@ -1,0 +1,50 @@
+subbody {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.buttons {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30%;
+}
+
+.buttons a {
+    color: #fff;
+    font-family: tahoma;
+    font-size: 24px;
+    margin: 0 20px;
+    padding: 20px 40px;
+    text-decoration: none;
+	transition-duration:400ms;
+}
+
+.first-button {
+	background-color: #006799;
+}
+
+.first-button:hover {
+	background-color: #000000;
+	color:green;
+}
+
+.first-button:active {
+	background-color:#fff;
+	color:#000;
+}
+
+.second-button {
+	background-color: #EE2A29;
+}
+
+.second-button:hover {
+	background-color: #006799;
+}
+
+.third-button {
+	background-color: #000000;
+}
+
+.third-button:hover {
+	background-color: #EE2A29;
+}
