@@ -46,10 +46,13 @@ img {
 	left: 45%;
 	top: 27%;
 	/* Transition affects */
-	transition-delay: 800ms;
+	/*transition-delay: 800ms;
 	transition-duration: 1000ms;
 	transition-property: opacity, left;
-	transition-timing-function: ease-in;
+	transition-timing-function: ease-in; */
+	/* Written in one line */
+	transition:left 1000ms 800ms ease-in, opacity 1000ms 800ms ease-in;
+
 }
 
 .read-more:hover {
@@ -60,4 +63,5 @@ img {
 .read-more:hover .btn-icon{
 	left: 80%;
 	opacity: 1;
+
 }
