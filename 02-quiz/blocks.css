@@ -1,0 +1,79 @@
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.content {
+  font-family: comic sans ms;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+h2 {
+  margin-bottom: 60px;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 16.6666%;
+  transition:.1s;
+}
+
+
+ a {
+  border-radius: 0;
+  color: white;
+  display: block;
+  padding: 1.4em 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.first-power {
+	background-color: #940300;
+}
+
+.second-power {
+	background-color: #0b439a;
+}
+
+.third-power {
+	background-color: #F98652;
+}
+
+.fourth-power {
+	background-color: #263F40;
+}
+
+.fifth-power {
+	background-color: #2F3035;
+}
+
+.sixth-power {
+	background-color: #8AD4DF;
+}
+
+.first-power,
+.third-power,
+.fifth-power {
+	transform: skewy(-12deg);
+}
+
+.second-power,
+.fourth-power,
+.sixth-power {
+	transform: skewY(12deg);
+}
+
+li {
+	transition: 1s;
+	transition-property: background-color skewY;
+}
+
+li:hover {
+	transform: skewY(0deg);
+	background-color: black;
+}
