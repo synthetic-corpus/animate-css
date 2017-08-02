@@ -38,7 +38,11 @@ h4 img {
   display: inline-block;
   margin: 25px;
   position: relative;
-  transform:rotateY(89deg);
+  transition:all .7s ease-in;
+}
+
+.photo-container:hover {
+  transform:rotate3d(0,1,-1,65deg);
 }
 
 .photo img {
@@ -47,11 +51,3 @@ h4 img {
   height: 215px;
   padding: 10px;
 }
-
-
-
-
-
-
-
-
