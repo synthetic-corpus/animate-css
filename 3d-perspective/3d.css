@@ -1,0 +1,57 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+h1, h4 {
+	margin: 0;
+}
+
+h4 img {
+  height: 64px;
+}
+
+.content {
+  font-family: comic sans ms;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10%;
+  perspective: 700px;
+}
+
+.content a {
+  background-color: #0b439a;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  margin: 20px 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+.images {
+  margin-top: 50px;
+}
+
+.photo-container {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+  transform:rotateY(89deg);
+}
+
+.photo img {
+  background-color: #fff;
+  border: 1px solid #0b439a;
+  height: 215px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
