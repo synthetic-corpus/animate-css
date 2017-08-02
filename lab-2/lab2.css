@@ -79,9 +79,36 @@ p {
 }
 
 
-/* ================================= 
+/* =================================
  Image 3D Transforms & Transitions
 ==================================== */
 
+.content {
+	/* This controls how far away the screen is
+	   Is the depth of the Z axis. */
+	perspective: 700px;
+}
 
+.photo {
+	transition: transform 1s ease-in;
+	/* Is needed to keep <> things as 3d things
+	Otherwise become flat thing */
+	transform-style: preserve-3d;
+}
 
+.photo:hover {
+	/* Rotate on X axis 180 degrees */
+	transform: rotate3d(1,0,0, 180deg);
+}
+
+.side-a,
+.side-b {
+	/* makes the other side invisible */
+	backface-visibility: hidden;
+}
+
+.side-b {
+	/* Flips Side-b around so its front face is visible.
+	*/
+	transform: rotateX(180deg);
+}
